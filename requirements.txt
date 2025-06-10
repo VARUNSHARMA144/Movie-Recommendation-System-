@@ -1,6 +1,39 @@
-pandas
-numpy
-matplotlib
-seaborn
-scikit-learn
-scipy
+Core Libraries 
+
+pandas, numpy, matplotlib, seaborn, scikit-learn, scipy with version specifications
+
+Web Framework Support
+
+Flask and Flask-CORS for serving the backend API to the React dashboard
+
+Advanced Recommendation Libraries
+
+surprise: Specialized library for collaborative filtering
+implicit: Optimized matrix factorization methods
+lightfm: Hybrid recommendation models
+
+Enhanced Visualization
+
+plotly: For interactive plots that complement the dashboard
+bokeh: Alternative visualization library for complex plots
+
+Performance Optimization
+
+numba: For accelerating numerical computations
+joblib: For parallel processing of recommendation algorithms
+
+Data Handling
+
+openpyxl, xlrd: For Excel file support
+h5py: For efficient data storage in HDF5 format
+
+Development Tools
+
+pytest: For unit testing the recommendation algorithms
+black, flake8: For code quality and formatting
+
+Optional Advanced Features
+
+tensorflow/torch: For implementing deep learning recommendation models
+transformers: For NLP-based content analysis
+sqlalchemy/pymongo: For database connectivity
